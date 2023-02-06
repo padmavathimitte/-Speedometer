@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.image {
+  width: 800px;
+  height: 300px;
+}
+.main-heading {
+  font-size: 32px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+.mini-heading {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+.paragraph {
+  font-size: 14px;
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.ac-button {
+  background-color: #0b69ff;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.ab-button {
+  background-color: transparent;
+  color: #cbd5e1;
+  font-size: 12px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
